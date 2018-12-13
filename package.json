@@ -1,0 +1,15 @@
+{
+    "name": "typescript-type-utils",
+    "scripts": {
+      "lint": "tslint --project ./",
+      "pretest": "yarn lint",
+      "test": "tsc"
+    },
+    "devDependencies": {
+      "tslint": "^5.11.0",
+      "typescript": "~3.2.2"
+    },
+    "license": "MIT",
+    "private": false
+}
+  
