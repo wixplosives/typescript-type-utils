@@ -1,5 +1,8 @@
 {
     "name": "typescript-type-utils",
+    "description": "utility types",
+    "types": "./lib/index.d.ts",
+    "version": "0.0.1",
     "scripts": {
       "lint": "tslint --project ./",
       "pretest": "yarn lint",
@@ -9,7 +12,7 @@
       "tslint": "^5.11.0",
       "typescript": "~3.2.2"
     },
-    "license": "MIT",
-    "private": false
+    "files": ["lib"],
+    "license": "MIT"
 }
   

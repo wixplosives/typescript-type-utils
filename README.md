@@ -1,2 +1,3 @@
 # typescript-type-utils
-useful typescript types
+
+This repo contains usefull typescript types, to be used across projects

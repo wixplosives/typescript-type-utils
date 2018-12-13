@@ -1,5 +1,4 @@
-import { UnionToIntersection, ExpectTrue, EQUAL, ExpectFalse, NOT_EQUAL, VALID_ARGS } from "src/test-kit";
-
+import { UnionToIntersection, ExpectTrue, EQUAL, ExpectFalse, NOT_EQUAL, VALID_ARGS } from "../lib";
 /**
  * test kit spec
  */
