@@ -1,5 +1,5 @@
 export type UnionToIntersection<U> =
-  (U extends any ? (k: U) => void : never) extends ((k: infer I) => void) ? I : never
+    (U extends any ? (k: U) => void : never) extends ((k: infer I) => void) ? I : never
 
 export type EXTENDS<VALUE, EXPECTED> = EXPECTED extends VALUE ? true : false
 
@@ -7,7 +7,7 @@ export type EQUAL<VALUE extends EXPECTED, EXPECTED> = NOT_EQUAL<VALUE, EXPECTED>
 
 export type NOT_EQUAL_INTERNAL<VALUE, EXPECTED> = UnionToIntersection<VALUE> extends UnionToIntersection<EXPECTED> ?
     UnionToIntersection<EXPECTED> extends UnionToIntersection<VALUE> ?
-            false : true : true
+    false : true : true
 
 export type NOT_EQUAL<VALUE, EXPECTED> = true extends NOT_EQUAL_INTERNAL<VALUE, EXPECTED> ? true : false
 
