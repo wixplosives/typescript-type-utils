@@ -1,2 +1,2 @@
-export * from './tupple-utils'
-export * from './test-kit'
+export * from './tuple-utils';
+export * from './test-kit';

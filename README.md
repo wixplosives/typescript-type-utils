@@ -21,13 +21,13 @@ example usage:
         EQUAL<string, string>
     >
 ```
-### tupple-utils
-utility types for manipulating tupple types
+### tuple-utils
+utility types for manipulating tuple types
 
 | types        | description           |
 | ------------- |-------------|
-| `TuppleToUnion<T>`     | equal to a union of the items in the tupple |
-| `ReduceTuppleOn<T, ID_FIELD, VALUE_FIELD>`    | reduces the tupple to an object  |
+| `TupleToUnion<T>`     | equal to a union of the items in the tuple |
+| `ReduceTupleOn<T, ID_FIELD, VALUE_FIELD>`    | reduces the tuple to an object  |
 
 
 ## contribution
