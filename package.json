@@ -19,5 +19,9 @@
   "files": [
     "lib"
   ],
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true
+  },
   "license": "MIT"
 }
