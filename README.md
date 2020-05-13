@@ -1,14 +1,16 @@
 # typescript-type-utils
 
-This repo contains usefull typescript types, to be used across projects.
+[![Build Status](https://github.com/wixplosives/typescript-type-utils/workflows/tests/badge.svg)](https://github.com/wixplosives/typescript-type-utils/actions)
 
-## types
+Useful TypeScript types for usage across projects.
+
+## Included Types
 
 ### test-kit
 
-the test kit types are utility types for ensuring the API signature of your code.
+The test-kit types are utility types for ensuring the API signature of your code.
 
-| types                           | description                                      |
+| Type                            | Description                                      |
 | ------------------------------- | ------------------------------------------------ |
 | `ExpectTrue<T>`                 | fails the build if "T" is not true               |
 | `ExpectFalse<T>`                | fails the build if "T" is not false              |
@@ -16,7 +18,7 @@ the test kit types are utility types for ensuring the API signature of your code
 | `NotEqual<T1, T2>`              | equal to true if "T1" is not identical to "T2"   |
 | `VALID_ARGS<FUNC, ARGS_TUPPLE>` | equal to true if "FUNC" can accept "ARGS_TUPPLE" |
 
-example usage:
+Example usage:
 
 ```ts
 type normalStrings = ExpectTrue<EQUAL<string, string>>;
@@ -24,15 +26,19 @@ type normalStrings = ExpectTrue<EQUAL<string, string>>;
 
 ### tuple-utils
 
-utility types for manipulating tuple types
+Utility types for manipulating tuple types
 
-| types                                     | description                                |
+| Type                                      | Description                                |
 | ----------------------------------------- | ------------------------------------------ |
 | `TupleToUnion<T>`                         | equal to a union of the items in the tuple |
 | `ReduceTupleOn<T, ID_FIELD, VALUE_FIELD>` | reduces the tuple to an object             |
 
-## contribution
+## Contribution
 
-- no actual code files are allowed, only d.ts file
-- the types are separated according to usage context and can be found in the lib directory
-- all types must be tested, see examples in the test directory
+- No actual code files are allowed, only `.d.ts` files.
+- The types are separated according to usage context and can be found in the `lib` directory.
+- All types must be tested, see examples in the `test` directory.
+
+## License
+
+MIT
