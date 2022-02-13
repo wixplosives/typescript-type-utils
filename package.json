@@ -20,8 +20,17 @@
     "lib"
   ],
   "prettier": {
-    "printWidth": 120,
-    "singleQuote": true
+    "overrides": [
+      {
+        "files": [
+          "*.ts"
+        ],
+        "options": {
+          "printWidth": 120,
+          "singleQuote": true
+        }
+      }
+    ]
   },
   "license": "MIT"
 }
