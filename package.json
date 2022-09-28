@@ -10,11 +10,11 @@
     "test": "yarn build"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.2",
-    "eslint": "^8.23.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
-    "typescript": "~4.8.2"
+    "typescript": "~4.8.4"
   },
   "files": [
     "lib"
