@@ -5,9 +5,9 @@
   "version": "0.1.0",
   "scripts": {
     "lint": "eslint .",
-    "pretest": "yarn lint",
+    "pretest": "npm run lint",
     "build": "tsc",
-    "test": "yarn build"
+    "test": "npm run build"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
