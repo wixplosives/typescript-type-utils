@@ -45,6 +45,7 @@ export namespace EqualTests {
       | {
           id: 'a' | 'b';
         }
+      // eslint-disable-next-line @typescript-eslint/no-duplicate-type-constituents
       | {
           id: 'a' | 'b';
         },
@@ -86,6 +87,7 @@ export namespace NotEqualTests {
       | {
           id: 'a' | 'b';
         }
+      // eslint-disable-next-line @typescript-eslint/no-duplicate-type-constituents
       | {
           id: 'a' | 'b';
         },
